@@ -3,7 +3,7 @@ password = "In the bustling city, where life is a constant race against time, uo
 
 first_char = password[28:35]
 second_word = password[113:118]
-third_word = password[68:65:-1]
+third_word = password[68:65:-1] #거꾸로 인덱싱 출력 시 [이상:미만:-1] 형태
 fourth_word = password[325:321:-1]
 fifth_word = password[365:371]
 
